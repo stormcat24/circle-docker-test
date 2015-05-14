@@ -1,0 +1,8 @@
+machine:
+  timezone: Asia/Tokyo
+  services:
+    - docker
+
+dependencies:
+  override:
+    - docker -v
